@@ -62,7 +62,7 @@ export default function Hero({ started }: { started: boolean }) {
           transition={{ duration: 1, ease: EASE_OUT, delay: 0.9 }}
         >
           <p>
-            Nocturne is a studio operating after dark — fusing cinematic motion,
+            FIT is a studio operating after dark — fusing cinematic motion,
             real-time 3D and interaction design into websites that pull people in
             and refuse to let go.
           </p>

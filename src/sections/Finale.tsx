@@ -61,7 +61,7 @@ export default function Finale() {
           <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
             <Magnetic strength={0.45}>
               <a
-                href="mailto:hello@nocturne.studio"
+                href="mailto:hello@fitstudio.demo"
                 className="btn btn-solid"
                 style={{ fontSize: "0.85rem", padding: "1.3rem 2.6rem" }}
                 data-cursor="active"
@@ -75,7 +75,7 @@ export default function Finale() {
             aria-hidden
           >
             <a
-              href="mailto:hello@nocturne.studio"
+              href="mailto:hello@fitstudio.demo"
               style={{
                 fontFamily: "var(--font-mono)",
                 fontSize: "clamp(0.9rem, 2.4vw, 1.3rem)",
@@ -85,7 +85,7 @@ export default function Finale() {
               className="u-link"
               tabIndex={-1}
             >
-              hello@nocturne.studio
+              hello@fitstudio.demo
             </a>
           </motion.div>
         </motion.div>
@@ -95,7 +95,7 @@ export default function Finale() {
             <div>
               <a href="#top" className="brand" aria-label="Back to top">
                 <span className="brand-mark" aria-hidden />
-                NOCTURNE<sup style={{ fontSize: "0.6em", fontWeight: 400 }}>®</sup>
+                FIT<sup style={{ fontSize: "0.6em", fontWeight: 400 }}>®</sup>
               </a>
               <p
                 style={{
@@ -143,7 +143,7 @@ export default function Finale() {
             </div>
           </div>
           <div className="footer-bottom">
-            <span>© 2026 Nocturne Studio — a fictional benchmark piece</span>
+            <span>© 2026 FIT Studio — a fictional benchmark piece</span>
             <span>Designed & engineered in one sitting</span>
             <span>No templates were harmed</span>
           </div>

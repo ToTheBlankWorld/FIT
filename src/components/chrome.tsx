@@ -116,7 +116,7 @@ export function Loader({ onDone }: { onDone: () => void }) {
           <span style={{ transform: `scaleX(${count / 100})` }} />
         </div>
         <div className="loader-meta">
-          <span>Nocturne® Studio</span>
+          <span>FIT Studio</span>
           <span>Initializing experience</span>
         </div>
       </div>
@@ -160,9 +160,9 @@ export function Nav() {
         <motion.div style={{ scaleX: progress }} />
       </div>
       <header className={`nav${scrolled ? " is-scrolled" : ""}`}>
-        <a href="#top" className="brand" aria-label="Nocturne home">
+        <a href="#top" className="brand" aria-label="FIT Studio home">
           <span className="brand-mark" aria-hidden />
-          NOCTURNE<sup style={{ fontSize: "0.6em", fontWeight: 400 }}>®</sup>
+          FIT<sup style={{ fontSize: "0.6em", fontWeight: 400 }}>®</sup>
         </a>
         <nav className="nav-links" aria-label="Primary">
           {LINKS.map((l) => (
